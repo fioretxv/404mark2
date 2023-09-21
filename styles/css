@@ -1,0 +1,9 @@
+body {
+    font-family: courier, 'courier new', monospace;
+    color: #1b1b1e;
+}
+h1, h2, h3 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+title {
+    font-family: Courier, 'Courier New', monospace;
+}

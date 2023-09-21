@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error</title>
+  <link href="css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+    <body>
+        <a href="google.com">Edificio</a>
+        <h1>Error </h1>
+        <h2>404</h2>
+        <h3> jobsite not found</h3>
+        <p>
+            <b>&#8592</b>
+        </p>
+        <h4>Take me to my next <a href=""><b>Home</b></a></h4>
+        <img src="file:///C:/Users/xanma/OneDrive/Pictures/edificio1.webp" alt="House" width="411" height="162">
+        <footer>
+            <p>All photos are projects designed by Edificio</p>
+        </footer>
+    </body>
+</html>
