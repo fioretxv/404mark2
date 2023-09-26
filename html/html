@@ -4,21 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Error</title>
-  <link href="css/styles.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
 </head>
-
     <body>
-        <a href="google.com">Edificio</a>
-        <h1>Error </h1>
-        <h2>404</h2>
-        <h3> jobsite not found</h3>
-        <p>
-            <b>&#8592</b>
-        </p>
-        <h4>Take me to my next <a href=""><b>Home</b></a></h4>
-        <img src="file:///C:/Users/xanma/OneDrive/Pictures/edificio1.webp" alt="House" width="411" height="162">
+        <div class="header">
+            <nav>
+                <u1>
+                    <li><a href="google.com">Edificio</a></li>
+                    <li><a href="google.com">Projects</a></li>
+                    <li><a href="google.com">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+            <div id="diva">
+                 <h1>Error </h1>
+                <h2>404</h2>
+                <p id="rtnlink">
+                    <h3></h3><b>&#8592</b> jobsite not found</h3>
+                <h4>Take me to my next <a href=""><b>Home</b></a></h4>
+                </p>
+            </div>
         <footer>
-            <p>All photos are projects designed by Edificio</p>
+            <p id="fttext">All photos are projects designed by Edificio</p>
         </footer>
     </body>
 </html>
