@@ -17,15 +17,15 @@
             </nav>
         </div>
             <div id="diva">
-                 <h1>Error </h1>
-                <h2>404</h2>
+                 <h1>404 </h1>
+                <h2>Error</h2>
                 <p id="rtnlink">
-                    <h3></h3><b>&#8592</b> jobsite not found</h3>
-                <h4>Take me to my next <a href=""><b>Home</b></a></h4>
+                    <h3> Jobsite not found!</h3>
+                <h4><b>&#8592</b>Take me to my next <a href=""><b>Home</b></a></h4>
                 </p>
             </div>
         <footer>
-            <p id="fttext">All photos are projects designed by Edificio</p>
+            <p id="fttext">All photos are projects designed by Edificio <sub><b>&#169</b></sub></p>
         </footer>
     </body>
 </html>

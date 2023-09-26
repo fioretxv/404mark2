@@ -5,11 +5,11 @@
     font-family: courier, 'courier new', monospace;
 }
 body {
-    color: #d49d36;
+    color: #080103;
     background-color: rgb(228, 225, 225);
 }
 .header{
-    background: #1A090D;
+    background: #080103;0
     width: 100vw;
     height: 8vh;
 }
@@ -18,10 +18,11 @@ nav{
  height: 8vh;
  flex: 1;
  align-items: center;
+ font-family: Arial, Helvetica, sans-serif;
 }
 nav u1{
     display: flex;
-    text-align: left;
+    text-align: center;
     font-size: 2vw 2vh;
 }
 nav u1 li{
@@ -30,19 +31,38 @@ nav u1 li{
     padding: .4%;
     display: inline-block;
     justify-content: center;
-    list-style: none;
+    margin-top: 8px;
 }
 #diva{
 flex: 1;
 width: 50%;
 height: 70%;
 }
-h1, h2, h3 {
-    color: #d49d36; 
-    padding: 3%;
-}
 h1, h2{
     font-weight: bold;
+}
+h1{
+    display: block;
+    margin-left: 5rem;
+    margin-top: 8rem;
+    font-size: 3rem;
+}
+h2{
+    display: block;
+    margin-left: 9rem;
+    font-size: 2.3rem;
+}
+h3{
+    display: block;
+    margin-top: 2.3rem;
+    margin-left: 3rem;
+    font-size: 1.3rem;
+}
+h4{
+    display: block;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    font-size: 1.7rem;
 }
 #rtnlink{
     font-size: 15vw 15vh;
@@ -61,13 +81,17 @@ footer{
     position: fixed;
     left: 0;
     bottom: 0;
-    background: #1A090D;
+    background: #080103;
     width: 100vw;
     height: 5vh;
+    flex:1;
 }
 #fttext{
     font-size: 10px;
+    display:flex;
     color: #d49d36;
-    text-align:center;
+    text-align: center;
+    justify-content:center;
     align-items: center;
+    margin-top: 8px;
 }
