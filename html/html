@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Error</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
     <body>
         <div class="header">
             <nav>
                 <u1>
-                    <li><a href="google.com">Edificio</a></li>
+                    <img id=callcard src="https://static.wixstatic.com/media/2efdfa_a7504a251847b060c8189e24e7ef47b5.jpg/v1/fill/w_284,h_155,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2efdfa_a7504a251847b060c8189e24e7ef47b5.jpg", height=65, width=130, alt="Calling Card">
+                    <li><a href="google.com">Home</a></li>
                     <li><a href="google.com">Projects</a></li>
                     <li><a href="google.com">Contact</a></li>
                 </ul>
@@ -21,7 +22,7 @@
                 <h2>Error</h2>
                 <p id="rtnlink">
                     <h3> Jobsite not found!</h3>
-                <h4><b>&#8592</b>Take me to my next <a href=""><b>Home</b></a></h4>
+                <h4><b>&#8592</b>Take me to my next <a href="google.com"><b>Home</b></a></h4>
                 </p>
             </div>
         <footer>

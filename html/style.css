@@ -2,23 +2,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: courier, 'courier new', monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body {
     color: #080103;
-    background-color: rgb(228, 225, 225);
+    background-image: url("background.jpg");
 }
 .header{
-    background: #080103;0
+    background: #8b8d8f;
     width: 100vw;
     height: 8vh;
-}
-nav{
- width: 100vw;
- height: 8vh;
- flex: 1;
- align-items: center;
- font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    opacity: 0.9;
 }
 nav u1{
     display: flex;
@@ -34,35 +29,52 @@ nav u1 li{
     margin-top: 8px;
 }
 #diva{
-flex: 1;
-width: 50%;
-height: 70%;
+    flex: 1;
+    display: block;
+    width: 1000px;
+    height: 820px;
+    background-image: linear-gradient(0.25turn,#d49d36,rgb(255, 255, 255,0));
 }
 h1, h2{
     font-weight: bold;
 }
 h1{
     display: block;
-    margin-left: 5rem;
-    margin-top: 8rem;
-    font-size: 3rem;
+    margin-left: 8%;
+    margin-top: 0%;
+    font-size: 10rem;
 }
 h2{
     display: block;
-    margin-left: 9rem;
-    font-size: 2.3rem;
+    margin-left: 8%;
+    margin-top: 2%;
+    font-size: 8rem;
 }
 h3{
     display: block;
     margin-top: 2.3rem;
     margin-left: 3rem;
-    font-size: 1.3rem;
+    font-size: 3rem;
 }
 h4{
     display: block;
     margin-left: 4rem;
     margin-top: 3rem;
-    font-size: 1.7rem;
+    font-size: 3rem;
+}
+a:visited{
+    color: rgba(139,141,143,255);
+}
+a:link{
+    color:#d49d36;
+    text-shadow: 
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+}
+a:hover{
+   color:#080103;
 }
 #rtnlink{
     font-size: 15vw 15vh;
@@ -71,20 +83,15 @@ h4{
     margin-left: 4%;
 
 }
-a:visited{
-    color: #003E1F;
-}
-a:link{
-    color: #d49d36;
-}
 footer{
     position: fixed;
     left: 0;
     bottom: 0;
-    background: #080103;
+    background: #8b8d8f;
     width: 100vw;
-    height: 5vh;
+    height: 32px;
     flex:1;
+    opacity: 0.9;
 }
 #fttext{
     font-size: 10px;
