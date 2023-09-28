@@ -7,11 +7,13 @@
 body {
     color: #080103;
     background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header{
     background: #8b8d8f;
     width: 100vw;
-    height: 8vh;
+    height: 65px;
     font-size: 37px;
     opacity: 0.9;
 }
@@ -32,7 +34,7 @@ nav u1 li{
     flex: 1;
     display: block;
     width: 1000px;
-    height: 820px;
+    height: calc(100vh - 130px);
     background-image: linear-gradient(0.25turn,#d49d36,rgb(255, 255, 255,0));
 }
 h1, h2{
@@ -89,7 +91,7 @@ footer{
     bottom: 0;
     background: #8b8d8f;
     width: 100vw;
-    height: 32px;
+    height: 65px;
     flex:1;
     opacity: 0.9;
 }
